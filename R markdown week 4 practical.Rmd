@@ -1,0 +1,50 @@
+---
+title: "New HDS attempt"
+author: "S OShaughnessy"
+date: "2023-10-14"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## R Markdown
+
+This is an R Markdown document. Markdown is a simple formatting syntax for authoring HTML, PDF, and MS Word documents. For more details on using R Markdown see <http://rmarkdown.rstudio.com>.
+
+When you click the **Knit** button a document will be generated that includes both content as well as the output of any embedded R code chunks within the document. You can embed an R code chunk like this:
+
+```{r cars}
+summary(cars)
+```
+## Beaver temperature
+```{r beaver1}
+summary(beaver1)
+list(beaver1)
+```
+## A numbered list for the beavers
+# I have made up a name for 4 of the beavers
+ 1. Alice - temp 36.33
+ 2. Rupert - temp 36.34
+ 3. Gerald - temp 36.35
+ 4. Lucille - temp 36.42
+ 
+## Who survived the Titanic
+```{r Titanic}
+summary(Titanic)
+```
+### A random unordered list
+## White Star Line had 3 Olympic-class ocean liners
+ * Olympic
+ * Britannic
+ * Titanic
+ 
+## Including Plots
+You can also embed plots, for example:
+
+```{r pressure, echo=FALSE}
+plot(pressure)
+```
+
+Note that the `echo = FALSE` parameter was added to the code chunk to prevent printing of the R code that generated the plot.
